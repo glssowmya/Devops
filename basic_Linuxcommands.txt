@@ -131,3 +131,92 @@ No alt text provided for this image
 31. TNC: This is “Test Network Connection” command. Mostly used command while troubleshooting. It displays diagnostic information for a connection.
  
 
+/home:- Home directory for the users.
+
+/boot: -it contains bootable files for Linux.
+
+/etc:- it contains all configuration files
+
+/usr: - by default software is installed in this directory.
+
+/bin:- it contains commands used by all users.
+
+/sbin:- It contains commands used by only the root user.
+
+/opt- optional application software package.
+
+/dev:- Essential device files include terminal devices, usb or any device attached to the system
+
+☑️Linux commands and Uses :
+There are Some of the most basic Linux commands include:
+
+ls: Lists files and directories in the current directory.
+
+eg:- ls -l (lists files in long format)
+
+cd: Changes the current directory.
+
+eg:- cd /path/to/directory (changes to a specific directory)
+
+pwd: Prints the current working directory.
+
+history:-It show the list of previously used commands.
+
+date:- It shows the date and time.
+
+whoami:- its shows the current login username.
+
+Cat Command:
+
+the cat command is one of the most universal tool, yet all it does is copy standard input to standard output.
+
+
+COPY
+ubuntu@ip-172-31-89-116:~$ cat >file1
+this command is use to concat the files.
+
+
+COPY
+cat file1 file2 >file3
+touch:
+
+touch command is use to create multiple empty files
+
+
+COPY
+touch /blog{1..5}
+mkdir:
+
+it's use to create directory -p is used to create multiple directory in side the directory
+
+
+COPY
+mkdir abhinav
+
+COPY
+mkdir -p abhinav/test/devops
+
+COPY
+ for multiple directory
+mkdir /new {1..10}
+cp:- this command is used to copy the file
+
+
+COPY
+cp file1 file2
+mv:- this command is used to move the file one to another file and also is use for rename the file name
+
+
+COPY
+mv file3 file4
+
+COPY
+my file3 newfile
+echo: Its is use for print the data.
+
+
+COPY
+echo "hello this is linux blog"
+
+
+
